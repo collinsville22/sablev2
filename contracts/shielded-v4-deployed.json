@@ -1,0 +1,28 @@
+{
+  "verifier_v4": "0x3329c4d5c2e37dfd20d46c3c20be9230b2152c71947ead441c342d989d52ffa",
+  "verifier_v4_class_hash": "0x377e1a6d75f645cccba56fbd0a0996b31d31322232fbc58e17ee4174ccf1369",
+  "pool_v4_class_hash": "0x1926eb6f1e745f82002da15d997aed8fc33fc0d75f5d656f5ada230632303d3",
+  "vault": "0x4ec7fdb1679450fb88eae9facc439a46be4ddeba628211e269a7467f6e0971b",
+  "pools": {
+    "sentinel_1x": {
+      "address": "0x2bdb9769851d0307e812351cc1eb31b617951fba786cfd5d58baff36589a33",
+      "denomination": 20000,
+      "label": "0.0002 BTC"
+    },
+    "sentinel_2x": {
+      "address": "0x2a94630f46bcf7362c12ed5b0163b4dd7644eb923aaada61ffb858d7912e03d",
+      "denomination": 40000,
+      "label": "0.0004 BTC"
+    },
+    "sentinel_3x": {
+      "address": "0x38224d3966b850913cfc4dd610032d8082e14c90fce91819a0fb994b1cc63f3",
+      "denomination": 60000,
+      "label": "0.0006 BTC"
+    },
+    "sentinel_4x": {
+      "address": "0x6de0d6c46431628f0cd257aa4384125b2380a7c5362aab2b146283181c2dff3",
+      "denomination": 80000,
+      "label": "0.0008 BTC"
+    }
+  }
+}

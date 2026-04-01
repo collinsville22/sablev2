@@ -1,0 +1,25 @@
+{
+  "vault": "0x70fc554c4a9714646c5f53aea26611a70c529133a34c00f2b8f95fd2cba742d",
+  "pools": {
+    "stable_10": {
+      "address": "0x4f4af2cf01a1cf28f424ce2ce3d7fed7f11792c88e5ce7a3eedd21cea24a5eb",
+      "denomination": 10000000,
+      "label": "10 USDC"
+    },
+    "stable_25": {
+      "address": "0x5aa66a4541caf4d43a526edd89c0285a671e0be0024ae5f8ca9f6734f4b7c89",
+      "denomination": 25000000,
+      "label": "25 USDC"
+    },
+    "stable_50": {
+      "address": "0x3226cbb8976f41eddf88c2871cf4d04653a1b6415dee7037a1ceaf641e977a9",
+      "denomination": 50000000,
+      "label": "50 USDC"
+    },
+    "stable_100": {
+      "address": "0x6348e9e2db703841bed848146ef895c8aed4f3c143e76bd145d9b3c544cea68",
+      "denomination": 100000000,
+      "label": "100 USDC"
+    }
+  }
+}

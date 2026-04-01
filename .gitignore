@@ -1,0 +1,81 @@
+# dependencies
+node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+NUL
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# python
+__pycache__/
+*.pyc
+*.py
+
+# build artifacts
+**/target/
+contracts/scarb-*.zip
+*.b64
+
+# privacy circuit build artifacts (large binary files)
+**/node_modules/
+**/build/
+**/build_v3/
+**/build_v4/
+*.zkey
+*.ptau
+*.r1cs
+*.sym
+*.wasm
+
+# scripts with hardcoded local paths
+contracts/scripts/upgrade-cdp.mjs
+contracts/scripts/setup-wallet.sh
+
+# secret files
+scripts/.sol-keypair.json
+*.secret
+*-keypair.json
+
+# test/trace artifacts
+scripts/trace_*.json
+scripts/withdraw_calldata.json
+test_heredoc.txt
+
+# misc
+NUL
+CACHEDIR.TAG
+node_modules/
+.secrets

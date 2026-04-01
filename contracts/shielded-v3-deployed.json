@@ -1,0 +1,13 @@
+{
+  "verifier_v3": "0x41011d7912b6759f2fe3cc66a1f746b81ec012c2774adabc77eecc299e0878d",
+  "verifier_v3_class_hash": "0x262fa796832c06e9bb2ce6da0e51db59bd4730a5baf7f1236b970f17e9cec4d",
+  "pool_v3_class_hash": "0x7e2e6f27dc6ac2aae4710b9b03b7197d0fa586679ae124466c1db27e5e632f7",
+  "pools": {
+    "sentinel": {
+      "address": "0x4d2c7aa4f2fe04a228821b7563842651d51691cda0c0ade44d48ce608172706",
+      "vault": "0x4ec7fdb1679450fb88eae9facc439a46be4ddeba628211e269a7467f6e0971b",
+      "denomination": 20000,
+      "batch_size": 3
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "sable-v2",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.4.0",
+    "@scure/starknet": "^1.0.0",
+    "@starknet-react/chains": "^5.0.3",
+    "@starknet-react/core": "^5.0.3",
+    "circomlibjs": "^0.1.7",
+    "clsx": "^2.1.1",
+    "garaga": "^1.0.1",
+    "get-starknet-core": "^4.0.0",
+    "motion": "^12.6.3",
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "recharts": "^2.15.3",
+    "snarkjs": "^0.7.6",
+    "starknet": "^8.1.2",
+    "tweetnacl": "^1.0.3"
+  },
+  "overrides": {
+    "@starknet-react/core": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    },
+    "@starknet-react/chains": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
+  },
+  "devDependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "bs58": "^5.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "network": "mainnet",
+  "deployer": "0x0007842590942b769a203cfcb07540299b86e22ba05b6708b516ec04ca044ef7",
+  "verifier": {
+    "classHash": "0x542575bce2d035e2cb1c117e20a3928d60e69a49719e20e2df95f173f96d356",
+    "address": "0x0473754bbedf8744ef682ca872112f40573f1a8c924c7b717eb6e879d5a6a17f"
+  },
+  "shieldedPools": {
+    "sentinel": {
+      "classHash": "0x3198c1500de4c85589b4c07dbea6773f52f080e6490520b57b3ae6221eca829",
+      "address": "0x0537ad6730ab2ab564079a4e98f2f9d707a21d7dc0806dfd621bc93f4af6c39f",
+      "vault": "0x04ec7fdb1679450fb88eae9facc439a46be4ddeba628211e269a7467f6e0971b",
+      "asset": "0x03fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac"
+    }
+  },
+  "timestamp": "2026-02-28T04:18:19.385Z"
+}
