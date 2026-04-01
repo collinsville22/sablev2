@@ -1,0 +1,3 @@
+*.circom linguist-language=Circom
+*.nr linguist-language=Noir
+*.cairo linguist-language=Cairo
